@@ -10,8 +10,7 @@
     </head>
     <body >
 
-
-        <h1>E ai, cara?</h1>
+        <h1>Menu Principal</h1>
         <img src="/img/cpbr.jpg"  alt="Campus Party">
 
         @if(10 < 5)
@@ -44,7 +43,7 @@
             <br>
             <br>
             @foreach($nomes as $nome)
-                <span>{{ $nome }} ({{ $loop -> index }}) ; </span>
+                <span>Para saber o index do looping{{ $nome }} ({{ $loop -> index }}) ; </span>
             @endforeach
 
             <br>
