@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('title', 'HDC Events')
-
+@section('title', 'Criar Evento')
 @section('content')
+
     <div>
         <h1>Pagina para contato</h1>
         <button>

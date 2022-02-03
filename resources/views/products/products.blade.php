@@ -6,6 +6,11 @@
 
     <h1>Produtos</h1>
 
+
+    @if($busca != '')
+        <p>O usuario está buscando por: {{ $busca }}</p>
+    @endif
+
     <button>
         <a href="/">Home</a>
     </button>  
